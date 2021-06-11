@@ -29,6 +29,7 @@ Product.init(
       validate:
       {
         //this needs to be vadlidated as a decimal here
+        isDecimal: true
       }
     },
     stock:
