@@ -43,7 +43,7 @@ router.post('/', (req, res) => {
   Tag.create(req.body, {
     tag_name : req.body.tag_name
   }).then(tagInfo => {
-    res.json(tagInfo);
+    res.json({tagInfo, message: 'Tag created'});
   }).catch(err => res.status(400).json(err))
 });
 
@@ -55,7 +55,7 @@ router.put('/:id', (req, res) => {
       id: req.params.id
     }
   }).then(tagInfo => {
-    res.json(tagInfo)
+    res.json({tagInfo, message: 'Tag was updated.'})
   }).catch(err => res.status(400).json(err));
 });
 
@@ -67,7 +67,7 @@ router.delete('/:id', (req, res) => {
       id:req.params.id
     }
   }).then(tagInfo =>{
-    res.json(tagInfo)
+    res.json({tagInfo, message: 'Tag was deleted.'})
   }).catch(err => res.status(500).json(err));
 });
 
