@@ -7,13 +7,18 @@ This program is a back-end application for an ecommerce website that holds vario
 ## Dependencies 
 
 -[Express](https://www.npmjs.com/package/express)
+
 -[Sequelize](https://www.npmjs.com/package/sequelize)
+
 -[dotenv](https://www.npmjs.com/package/dotenv)
+
 -[mySQL2](https://www.npmjs.com/package/mysql2)
 
 ## Usage
 
 Attached below is a video on how the e-commerce back-end application runs. I used Insomnia to show the different api route functionalities. 
+
+[video]()
 
 ## Author
 
