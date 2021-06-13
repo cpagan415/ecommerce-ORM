@@ -18,8 +18,8 @@ This program is a back-end application for an ecommerce website that holds vario
 
 Attached below is a video on how the e-commerce back-end application runs. I used Insomnia to show the different api route functionalities. 
 
-[video]()
-
+[video](https://user-images.githubusercontent.com/images/challenge13PT1.mp4)
+[video](https://user-images.githubusercontent.com/images/challenge13PT2.mp4)
 ## Author
 
 Github: [cpagan415](github.com/cpagan415)
